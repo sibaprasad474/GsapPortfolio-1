@@ -102,10 +102,6 @@ gsap.to(".curve path:nth-child(2)", {
     duration: 4
 });
 
-revealTpSpan();
-valueSetter();
-loaderAnimation();
-
 function animateHome() {
     let tl = gsap.timeline();
     tl.to("#nav a", {
@@ -138,4 +134,3 @@ revealTpSpan();
 valueSetter();
 loaderAnimation();
 // animateHome()
-// animateSvg();
