@@ -136,6 +136,6 @@ gsap.to(".curve path:nth-child(2)", {
 });
 revealTpSpan();
 valueSetter();
-// loaderAnimation();
-animateHome()
+loaderAnimation();
+// animateHome()
 // animateSvg();
