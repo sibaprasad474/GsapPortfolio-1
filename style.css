@@ -203,7 +203,7 @@ section {
 .t-col{
     color:#fff;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20vh;
+    font-size: 10vh;
     font-weight: 800;
 }
 /* ////////////shapes//////////  */
@@ -255,9 +255,9 @@ section {
     }
 
     #nav{
-        /* flex-direction: column;
-        padding: 1vw; */
-        display: none;
+        flex-direction: column;
+        padding: 1vw;
+        /* display: none; */
     }
     .hamburger{}
 
@@ -276,7 +276,7 @@ section {
     }
 
     .row svg {
-        height: 12vw;
+        height: 15vw;
         margin: 5vw 0;
     }
     #home {
