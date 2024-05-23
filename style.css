@@ -37,7 +37,7 @@ body {
     flex-direction: column;
     z-index: 999;
 
-    display: none;
+    /* display: none; */
 }
 
 #green {
@@ -45,7 +45,7 @@ body {
     height: 50vh;
     top: 100%;
     background-color: #14cf93;
-    display: none;
+    /* display: none; */
 }
 
 #loader #topheading {
