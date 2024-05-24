@@ -191,6 +191,16 @@ polyline {
 .reveal .child {
     display: inline-block;
 }
+.row #explore{
+    padding: 2vh;
+    background-color: #14cf93;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5%;
+    cursor: pointer;
+    margin: 1vw;
+}
 
 /* ////////////////////////////////////  */
 
