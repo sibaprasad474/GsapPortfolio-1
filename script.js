@@ -137,6 +137,8 @@ function heroAnimation(){
       // Initial positions
       gsap.set(".img-section", { x: "-100%", opacity: 0 });
       gsap.set(".text-content", { x: "-100%", opacity: 0 });
+      gsap.set("#explore", { x: "-100%", opacity: 0 });
+
       gsap.set(".social-icon", { y: "100%", opacity: 0 });
   
       // Animate image section
@@ -144,6 +146,7 @@ function heroAnimation(){
   
       // Animate text content
       tl.fromTo(".text-content", { x: "-100%", opacity: 0 }, { x: "0%", opacity: 1, duration: 1.5 }, "-=1");
+      tl.fromTo("#explore", { x: "-100%", opacity: 0 }, { x: "0%", opacity: 1, duration: 1.5 }, "-=1");
   
       // Animate social icons
       tl.fromTo(".social-icon", { y: "100%", opacity: 0 }, { y: "0%", opacity: 1, duration: 1.5 }, "-=1.5");
