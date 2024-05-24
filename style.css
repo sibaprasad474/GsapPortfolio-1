@@ -371,7 +371,7 @@ section {
     }
 
     #home {
-        height: 70vh;
+        height: 60vh;
         width: 100%;
         /* border: 1px solid red; */
     }
@@ -386,5 +386,9 @@ section {
     }
     #row2{
         margin-top: 10px;
+    }
+    #contents{
+        border: 1px solid red;
+        height: 80%;
     }
 }
