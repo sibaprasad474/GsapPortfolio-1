@@ -154,7 +154,9 @@ function heroAnimation(){
           { opacity: 1, x: 0, duration: 1, stagger: 0.2 }, 
           "-=1.0"
       );
+
 }
+
 revealTpSpan();
 valueSetter();
 // loaderAnimation();
