@@ -100,8 +100,8 @@ body {
     background-color:#def3f5;
     height: 80vh;
     width: 100%;
-    border-bottom-right-radius: 20%;
-    /* border-bottom-left-radius: 20%; */
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
     /* border: 1px solid red; */
 }
 
@@ -429,6 +429,9 @@ section {
     }
     #row2{
         margin-top: 10px;
+    }
+    .row #explore{
+        margin-top: 4vh;
     }
 
 }
