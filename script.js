@@ -130,7 +130,33 @@ gsap.to(".curve path:nth-child(2)", {
     ease: "sine.inOut",
     duration: 4
 });
+function heroAnimation(){
+      // GSAP timeline
+      const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
+
+      // Initial positions
+      gsap.set(".img-section", { x: "-100%", opacity: 0 });
+      gsap.set(".text-content", { x: "-100%", opacity: 0 });
+      gsap.set(".social-icon", { y: "100%", opacity: 0 });
+  
+      // Animate image section
+      tl.fromTo(".img-section", { x: "-100%", opacity: 0 }, { x: "0%", opacity: 1, duration: 1.5 });
+  
+      // Animate text content
+      tl.fromTo(".text-content", { x: "-100%", opacity: 0 }, { x: "0%", opacity: 1, duration: 1.5 }, "-=1");
+  
+      // Animate social icons
+      tl.fromTo(".social-icon", { y: "100%", opacity: 0 }, { y: "0%", opacity: 1, duration: 1.5 }, "-=1.5");
+  
+      // Stagger animation for text content elements
+      tl.fromTo(".text-content h2, .text-content h4, .text-content p, .text-content button", 
+          { opacity: 0, x: -20 }, 
+          { opacity: 1, x: 0, duration: 1, stagger: 0.2 }, 
+          "-=1.0"
+      );
+}
 revealTpSpan();
 valueSetter();
 // loaderAnimation();
 animateHome()
+heroAnimation()
