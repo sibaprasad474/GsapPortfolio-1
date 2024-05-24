@@ -389,6 +389,6 @@ section {
     }
     #contents{
         border: 1px solid red;
-        height: 50%;
+        height: 40vh;
     }
 }
